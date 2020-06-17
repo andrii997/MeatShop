@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="libs/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+  <header>
+    <div class="holder">
+      <div class="top-head">
+
+        <div class="burger">
+          <img src="img/menu-mobile.png.png" alt="">
+        </div>
+        <a href="" class="logo">
+          <img src="img/logo.png" alt="">
+        </a>
+        <nav>
+          <ul>
+            <li><a href="">О нас</a></li>
+            <li><a href="">Стать партнером</a></li>
+            <li><a href="">Как это работает</a></li>
+            <li><a href="">Новости в мире Крафта</a></li>
+            <li><a href="">Связаться с нами</a></li>
+          </ul>
+        </nav>
+        <div class="lang">
+          <img src="img/earth.png" alt="">
+          <p>RU</p>
+          <div class="box">
+            <div class="active">
+              <span></span>
+              <p>RU</p>
+            </div>
+            <div>
+              <span></span>
+              <p>UA</p>
+            </div>
+            <div>
+              <span></span>
+              <p>ENG</p>
+            </div>
+          </div>
+        </div>
+
+        <a class="btn-enter">
+         <img src="img/open.png" alt=""> <span>Вход</span>
+        </a>
+        <a href="" class="btn-recall">
+          <img src="img/call-header.png" alt=""> Заказать звонок
+        </a>
+
+        <div class="cart-btn">
+          <img src="img/basket1.png.png" alt="">
+        </div>
+      </div>
+      <div class="btm-head">
+        <div class="burger">
+          <img src="img/menu-mobile.ww.png" alt="">
+        </div>
+        <span class="catalog ictxt">
+          <img src="img/bring.png" alt="">
+          Каталог товаров
+        </span>
+
+        <div class="search">
+          <span class="ictxt">
+            <img src="img/search.png" alt="">
+            Поиск
+          </span>
+
+          <div class="searchbox">
+            <div class="search-check">
+              <div class="search-check-btn">
+                <img class="s" src="img/search-lk.png.png" alt="">
+                <img src="img/arrow-down-search.png.png" alt="">
+                <span>
+                  по товарам:
+                </span>
+              </div>
+
+              <div class="search-check-box">
+                <p>Поиск по:</p>
+                <div class="inputbox">
+                  <div class="radiobox">
+                    <input type="radio" name="filterr" id="tovar" value="tovar">
+                    <img src="img/tick.svg" alt="" class="tip">
+                  </div>
+                  <label for="tovar">Товарам</label>
+                </div>
+                <div class="inputbox">
+                  <div class="radiobox">
+                    <input type="radio" name="filterr" id="proizv" value="proizv">
+                    <img src="img/tick.svg" alt="" class="tip">
+                  </div>
+                  <label for="proizv">Производителям</label>
+                </div>
+                <div class="inputbox">
+                  <div class="radiobox">
+                    <input type="radio" name="filterr" id="oblast" value="oblast">
+                    <img src="img/tick.svg" alt="" class="tip">
+                  </div>
+                  <label for="oblast">Областям</label>
+                </div>
+              </div>
+            </div>
+            <input type="text" name="" id="">
+          </div>
+        </div>
+
+        <a href="" class="sale ictxt">
+          <img src="img/perc.png" alt="">
+          Акции
+          <img src="img/fire.png.png" alt="" class="fire">
+        </a>
+
+        <div class="socials">
+          <a href=""><img src="img/Facebook.png" alt=""></a>
+          <a href=""><img src="img/instagram.png.png" alt=""></a>
+          <a href=""><img src="img/telegram.png.png" alt=""></a>
+          <a href=""><img src="img/viber.png.png" alt=""></a>
+        </div>
+
+        <div class="cart-btn">
+          <div class="basket">
+            <img src="img/basket.png.png" alt="">
+            <span>2</span>
+          </div>
+          <span>В корзине</span>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-menu">
+      <div class="head">
+        <div class="close">
+          <img src="img/menu-cross.png.png" alt="">
+        </div>
+        <a href="" class="logo">
+          <img src="img/mob-logo.png" alt="">
+        </a>
+        <div></div>
+      </div>
+
+      <div class="box-btns">
+        
+
+        <a class="btn-enter">
+         <img src="img/open.png" alt=""> <span>Вход</span>
+        </a>
+        <div class="lang">
+          <img src="img/earth.png" alt="">
+          <p>RU</p>
+          <div class="box">
+            <div class="active">
+              <span></span>
+              <p>RU</p>
+            </div>
+            <div>
+              <span></span>
+              <p>UA</p>
+            </div>
+            <div>
+              <span></span>
+              <p>ENG</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="search">
+        <div class="searchbox">
+          <div class="search-check">
+            <div class="search-check-btn">
+              <img class="s" src="img/search-lk.png.png" alt="">
+              <img src="img/arrow-down-search.png.png" alt="">
+              
+            </div>
+
+            <div class="search-check-box">
+              <p>Поиск по:</p>
+              <div class="inputbox">
+                <div class="radiobox">
+                  <input type="radio" name="filterr" id="tovar" value="tovar">
+                  <img src="img/tick.svg" alt="" class="tip">
+                </div>
+                <label for="tovar">Товарам</label>
+              </div>
+              <div class="inputbox">
+                <div class="radiobox">
+                  <input type="radio" name="filterr" id="proizv" value="proizv">
+                  <img src="img/tick.svg" alt="" class="tip">
+                </div>
+                <label for="proizv">Производителям</label>
+              </div>
+              <div class="inputbox">
+                <div class="radiobox">
+                  <input type="radio" name="filterr" id="oblast" value="oblast">
+                  <img src="img/tick.svg" alt="" class="tip">
+                </div>
+                <label for="oblast">Областям</label>
+              </div>
+            </div>
+          </div>
+          <input type="text" name="" id="">
+        </div>
+      </div>
+
+      <div class="links">
+        <a href="">
+          <img src="img/catalog-saller.png.png" alt="">
+          Каталог
+        </a>
+        <a href="">
+          <img src="img/basket-lk.png.png" alt="">
+          Корзина
+        </a>
+        <a href="">
+          <img src="img/3.png" alt="">
+          Акции
+        </a>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="">О нас</a>
+          </li>
+          <li>
+            <a href="">Стать партнером</a>
+          </li>
+          <li>
+            <a href="">Как это работает</a>
+          </li>
+          <li>
+            <a href="">Новости в мире Крафта</a>
+          </li>
+          <li>
+            <a href="">Связаться с нами</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="" class="btn-recall">
+        <img src="img/call-header.png" alt=""> Заказать звонок
+      </a>
+      <div class="socials">
+        <a href=""><img src="img/Facebook.png" alt=""></a>
+        <a href=""><img src="img/instagram.png.png" alt=""></a>
+        <a href=""><img src="img/telegram.png.png" alt=""></a>
+        <a href=""><img src="img/viber.png.png" alt=""></a>
+      </div>
+
+      <div class="btm">
+        <span>© Все права защищены «Crefters», 2020</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="catalog-popup">
+    <div class="holder">
+      <div class="catside">
+        <div class="closer-box">
+          <div class="close">
+            <img src="img/menu-cross.png.png" alt="">
+          </div>
+          <a href="" class="logo">
+            <img src="img/mob-logo.png" alt="" srcset="">
+          </a>
+          <div></div>
+        </div>
+        <div class="catside-sub">
+          <div class="list">
+            <span>Сыры из козьего молока</span>
+            <span>Сыры из козьего молока</span>
+            <span>Сыры из козьего молока</span>
+            <span>Сыры из козьего молока</span>
+            <span>Сыры из козьего молока</span>
+            <span>Сыры из козьего молока</span>
+            <span>Сыры из козьего молока</span>
+            <span>Сыры из козьего молока</span>
+          </div>
+        </div>
+  
+        <div class="search-check-box">
+          <p>Поиск по:</p>
+          <div class="inputbox">
+            <div class="radiobox">
+              <input type="radio" name="filterr1" id="tovar1" value="tovar">
+              <img src="img/tick.svg" alt="" class="tip">
+            </div>
+            <label for="tovar1">Товарам</label>
+          </div>
+          <div class="inputbox">
+            <div class="radiobox">
+              <input type="radio" name="filterr1" id="proizv1" value="proizv">
+              <img src="img/tick.svg" alt="" class="tip">
+            </div>
+            <label for="proizv1">Производителям</label>
+          </div>
+          <div class="inputbox">
+            <div class="radiobox">
+              <input type="radio" name="filterr1" id="oblast1" value="oblast">
+              <img src="img/tick.svg" alt="" class="tip">
+            </div>
+            <label for="oblast1">Областям</label>
+          </div>
+        </div>
+        <div class="name-list">
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+          <span>ТМ «Фарро»</span>
+        </div>
+  
+        <div class="line"></div>
+  
+        <div class="cat-list">
+          <div class="back">
+            <img src="img/back-arrow-page.png.png" alt="">
+          </div>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+          <span>Мясо 
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 490.8 490.8" style="enable-background:new 0 0 490.8 490.8;" xml:space="preserve">
+         <path style="fill:#F44336;" d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82
+           l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262
+           c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"/>
+         <path d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115
+           L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667
+           c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"/>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         <g>
+         </g>
+         </svg>
+         </span>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bucket-popup">
+    <div class="wrapper">
+      <div class="close">
+        <img src="img/close.png" alt="">
+      </div>
+      <div class="head">
+        <div class="closer-box">
+          <div class="close">
+            <img src="img/menu-cross.png.png" alt="">
+          </div>
+          <a href="" class="logo">
+            <img src="img/mob-logo.png" alt="" srcset="">
+          </a>
+          <div></div>
+        </div>
+        <h3>Корзина заказов</h3>
+      </div>
+      <div class="body">
+        <div class="items-box">
+          <div class="titl">
+            <div class="line"></div>
+            <p>
+              <img src="img/l1.png" alt="">
+              Продукция ТМ «Фарро» Кременчукм’ясо
+            </p>
+          </div>
+          <div class="item">
+            <div class="info">
+              <a href="" class="img" style="background: url(img/prod1.jpg) center / cover no-repeat;"></a>
+              <div class="box">
+                <a href="" class="name">Свинной балык-рулька</a>
+                <p>Артикул: <span>KPK022</span></p>
+                <p>Цена: <span>150 грн</span></p>
+              </div>
+            </div>
+  
+            <div class="weight">
+              <p class="tit">Вес</p>
+              <div class="prod-counter-box">
+                <div class="prod-counter">
+                    <span>
+                        -
+                    </span>
+                    <input type="number" name="" id="" value="1">
+                    <span>
+                        +
+                    </span>
+                </div>
+                <span>
+                    кг.
+                </span>
+            </div>
+            </div>
+  
+            <div class="summ">
+              <p class="tit">Сумма</p>
+              <p class="s">150 <sup>грн</sup></p>
+            </div>
+  
+            <div class="delete">
+              <p class="tit">Убрать из корзины</p>
+              <div>
+                <img src="img/trash-can.png.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="info">
+              <a href="" class="img" style="background: url(img/prod1.jpg) center / cover no-repeat;"></a>
+              <div class="box">
+                <a href="" class="name">Свинной балык-рулька</a>
+                <p>Артикул: <span>KPK022</span></p>
+                <p>Цена: <span>150 грн</span></p>
+              </div>
+            </div>
+  
+            <div class="weight">
+              <p class="tit">Вес</p>
+              <div class="prod-counter-box">
+                <div class="prod-counter">
+                    <span>
+                        -
+                    </span>
+                    <input type="number" name="" id="" value="1">
+                    <span>
+                        +
+                    </span>
+                </div>
+                <span>
+                    кг.
+                </span>
+            </div>
+            </div>
+  
+            <div class="summ">
+              <p class="tit">Сумма</p>
+              <p class="s">150 <sup>грн</sup></p>
+            </div>
+  
+            <div class="delete">
+              <p class="tit">Убрать из корзины</p>
+              <div>
+                <img src="img/trash-can.png.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="price-box">
+            <div class="price">
+              <p class="tit">К оплате без доставки:</p>
+              <p class="s">300 <sup>грн</sup></p>
+            </div>
+
+            <div class="btns">
+              <a href="" class="btn">Продолжить покупки</a>
+              <a href="" class="btn">Оформить заказ</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="items-box">
+          <div class="titl">
+            <div class="line"></div>
+            <p>
+              <img src="img/l1.png" alt="">
+              Продукция ТМ «Фарро» Кременчукм’ясо
+            </p>
+          </div>
+          <div class="item">
+            <div class="info">
+              <a href="" class="img" style="background: url(img/prod1.jpg) center / cover no-repeat;"></a>
+              <div class="box">
+                <a href="" class="name">Свинной балык-рулька</a>
+                <p>Артикул: <span>KPK022</span></p>
+                <p>Цена: <span>150 грн</span></p>
+              </div>
+            </div>
+  
+            <div class="weight">
+              <p class="tit">Вес</p>
+              <div class="prod-counter-box">
+                <div class="prod-counter">
+                    <span>
+                        -
+                    </span>
+                    <input type="number" name="" id="" value="1">
+                    <span>
+                        +
+                    </span>
+                </div>
+                <span>
+                    кг.
+                </span>
+            </div>
+            </div>
+  
+            <div class="summ">
+              <p class="tit">Сумма</p>
+              <p class="s">150 <sup>грн</sup></p>
+            </div>
+  
+            <div class="delete">
+              <p class="tit">Убрать из корзины</p>
+              <div>
+                <img src="img/trash-can.png.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="info">
+              <a href="" class="img" style="background: url(img/prod1.jpg) center / cover no-repeat;"></a>
+              <div class="box">
+                <a href="" class="name">Свинной балык-рулька</a>
+                <p>Артикул: <span>KPK022</span></p>
+                <p>Цена: <span>150 грн</span></p>
+              </div>
+            </div>
+  
+            <div class="weight">
+              <p class="tit">Вес</p>
+              <div class="prod-counter-box">
+                <div class="prod-counter">
+                    <span>
+                        -
+                    </span>
+                    <input type="number" name="" id="" value="1">
+                    <span>
+                        +
+                    </span>
+                </div>
+                <span>
+                    кг.
+                </span>
+            </div>
+            </div>
+  
+            <div class="summ">
+              <p class="tit">Сумма</p>
+              <p class="s">150 <sup>грн</sup></p>
+            </div>
+  
+            <div class="delete">
+              <p class="tit">Убрать из корзины</p>
+              <div>
+                <img src="img/trash-can.png.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="price-box">
+            <div class="price">
+              <p class="tit">К оплате без доставки:</p>
+              <p class="s">300 <sup>грн</sup></p>
+            </div>
+
+            <div class="btns">
+              <a href="" class="btn">Продолжить покупки</a>
+              <a href="" class="btn">Оформить заказ</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="foot">
+        <div class="title">
+          <h4>Оформить все заказы</h4>
+          <div class="line"></div>
+        </div>
+        <div class="price-box">
+          <div class="price">
+            <p class="tit">К оплате без доставки:</p>
+            <p class="s">500 <sup>грн</sup></p>
+          </div>
+
+          <div class="btns">
+            <a href="" class="btn">Оформить все заказы</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="enter-popup">
+    <div class="wrapper">
+      <div class="close">
+        <img src="img/close.png" alt="">
+      </div>
+      <div class="wrap">
+        <div class="pop-nav">
+          <span class="active" data-id="1">Вход</span>
+          <span data-id="2">Регистрация</span>
+        </div>
+        <div class="pop-form">
+          <div class="form" data-id="1">
+            <form action="" method="POST">
+              
+              <label for="">Номер телефона</label>
+              <input type="text" placeholder="+38 (___) ___ - __ - __">
+              <button type="submit">Войти</button>
+            </form>
+  
+            <div class="orbox">
+              <p>или</p>
+              <span data-id="2">Зрегестрироваться</span>
+            </div>
+          </div>
+          <div class="form" data-id="2">
+            <form action="" method="POST">
+              <label for="">Имя</label>
+              <input type="text">
+              <label for="">Номер телефона</label>
+              <input type="text" placeholder="+38 (___) ___ - __ - __">
+              <button type="submit">Зарегистрироваться</button>
+            </form>
+  
+            <div class="orbox">
+              <p>или</p>
+              <span data-id="1">Войти</span>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcrumbs">
+      <div class="holder">
+          <ul>
+              <li><a href="">Главная</a></li>
+              <li><a href="">ТМ «Пирятинь»</a></li>
+              <li><a href="">Сыры</a></li>
+              <li><a href="">Сыры из козьего молока</a></li>
+              <li><a href="">Голландський сыр Зелене песто</a></li>
+          </ul>
+      </div>
+  </div>
+
+  <section class="about">
+      <div class="holder">
+          <div class="title">
+              <h2><a href=""><img style="transform: rotate(180deg);" src="img/back-arrow-card.png.png" alt=""></a>О нас</h2>
+              <div class="line"></div>
+          </div>
+          <div class="img-banner">
+              <img src="img/banner.png" alt="">
+              <img class="mobile-banner" src="img/img-banner-mob.jpg" alt="">
+          </div>
+          <div class="text">
+              <h3>Пример заголовка</h3>
+              <p>     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea ta kimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              <h3>Пример заголовка</h3>
+              <h4>Заголовок второго уровня</h4>
+              <p>     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea ta kimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              <h3>Пример абзаца с маркерным списком</h3>
+              <ul>
+                    <li>Пункт номер 1</li>
+                    <li>Пункт номер 2</li>
+                    <li>Пункт номер 3</li>
+                    <li>Пункт номер 4</li>
+              </ul>
+
+              <h3>Пример абзаца с маркерным списком</h3>
+              <ol>
+                  <li>Пункт номер 1</li>
+                    <li>Пункт номер 2</li>
+                    <li>Пункт номер 3</li>
+                    <li> Пункт номер 4</li>
+              </ol>
+          </div>
+      </div>
+  </section>
+
+  <section class="history">
+      <div class="holder">
+        <div class="title">
+            <h2>История компании</h2>
+            <div class="line"></div>
+        </div>
+        <div class="historybox">
+            <div class="historyboxtext">
+                <div class="item">
+                    <p class="tit">Создание идеи</p>
+                    <h4>крафтового магазина</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <div class="img">
+                        <img src="img/bgh.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="tit">Создание идеи</p>
+                    <h4>крафтового магазина</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <div class="img">
+                        <img src="img/bgh.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="tit">Создание идеи</p>
+                    <h4>крафтового магазина</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <div class="img">
+                        <img src="img/bgh.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="tit">Создание идеи</p>
+                    <h4>крафтового магазина</h4>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <div class="img">
+                    </div>
+                </div>
+                <img src="img/centralimg.png" alt="" class="centralimg">
+            </div>
+        </div>
+        <div class="line"></div>
+      </div>
+
+  </section>
+
+  <footer>
+    <div class="holder">
+      <div class="logobox">
+        <a href="" class="logo">
+          <img src="img/flogo.png" alt="">
+        </a>
+        <div class="socialsbox">
+          <p>Присоеденяйтесь</p>
+          <div class="socials">
+            <a href=""><img src="img/Facebook.png" alt=""></a>
+            <a href=""><img src="img/instagram.png.png" alt=""></a>
+            <a href=""><img src="img/telegram.png.png" alt=""></a>
+            <a href=""><img src="img/viber.png.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="links">
+          <a href="">О нас       
+          </a>
+          <a href="">Стать партнером       
+          </a>
+          <a href="">Как это работает       
+          </a>
+          <a href="">Новости в мире Крафта       
+          </a>
+          <a href="">Связаться с нами</a>
+      </div>
+
+      <div class="links">
+        <a href="">Пользовательское соглашение
+        </a>
+        <a href="">Правила размещения продукции
+        </a>
+        <a href="">Политика конфиденциальности
+        </a>
+        <a href="">Правила для размещения отзывов </a>
+      </div>
+
+      <div class="links">
+        <a href="">Каталог
+        </a>
+        <a href="">Акции
+        </a>
+        <a href="">Личный кабинет
+        </a>
+      </div>
+
+      <a href="" class="btn-recall">
+        <img src="img/call-header.png" alt=""> Заказать звонок
+      </a>
+    </div>
+  </footer>
+  <div class="under-footer">
+    <div class="holder">
+      <p>© Все права защищены «Crefters», 2020</p>
+      <a href="">Design by <img src="img/kalin.png" alt=""></a>
+    </div>
+  </div>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script src="libs/slick.min.js"></script>
+  <script src="js/scripts.all.js"></script>
+</body>
+</html>
